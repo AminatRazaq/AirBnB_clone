@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-"""Define the amenity class"""
+
+"""
+Amenity class that inherits from BaseModel
+"""
 
 from models.base_model import BaseModel
-import uuid
 
 
 class Amenity(BaseModel):
-    """Represents an amenity
+    """ Class that defines attributes for amenity """
 
-    Attributes:
-        name (str): state name
-    """
     name = ""

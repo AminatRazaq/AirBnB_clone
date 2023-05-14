@@ -1,20 +1,16 @@
 #!/usr/bin/python3
-"""Define the user class"""
 
-import uuid
+"""
+User class that inherits from BaseModel
+"""
+
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-        """Represent a User
+    """ Class that defines attributes for an user """
 
-    Attributes:
-        email (str): user email
-        password (str): user password
-        first_name (str): first name
-        last_name (str): last name
-    """
-            email = ""
-                password = ""
-                    first_name = ""
-                        last_name = ""
+    email = ""
+    password = ""
+    first_name = ""
+    last_name = ""
